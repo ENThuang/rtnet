@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "train.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/home/yirui.wang/Desktop/rtNet/tools/train.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "3"
+            },
+            "args": [
+                "-n",
+                "ldh_3d_dualnet.ldh_dualnet_3d",
+                "-d",
+                "1",
+                "-b",
+                "4",
+                "backbone",
+                "MultiDualNet",
+                "test_num_25d_group",
+                "4",
+                "num_25d_group",
+                "4",
+                "current_fold",
+                "0",
+                "max_epoch",
+                "10",
+                "eval_interval",
+                "1",
+                "save_history_ckpt",
+                "false",
+                "num_classes",
+                "1",
+                "output_dir",
+                "/home/yirui.wang/Desktop/VSCodeDebug"
+            ]
+        }
+    ]
+}
