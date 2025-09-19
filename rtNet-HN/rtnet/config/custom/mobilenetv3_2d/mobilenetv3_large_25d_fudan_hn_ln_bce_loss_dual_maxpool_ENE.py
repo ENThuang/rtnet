@@ -54,7 +54,7 @@ class Exp(MyExp):
 
         # -------------- nnUnet style args, to be organized --------------#
         # Data loader tasks
-        self.base = "/nas/yirui.wang/datasets/LN_classify/rtNetData/"
+        self.base = "/xxxx/datasets/LN_classify/rtNetData/"
         self.base_image = os.path.join(self.base, "images")
         self.preprocessing_output_dir = os.path.join(self.base_image, "preprocessed")
         self.task_ids = ["034"]

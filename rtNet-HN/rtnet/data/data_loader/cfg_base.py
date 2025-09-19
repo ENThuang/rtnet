@@ -14,7 +14,7 @@ from batchgenerators.utilities.file_and_folder_operations import maybe_mkdir_p, 
 class Cfg(object):
     def __init__(self):
         # self.base = "/home/dazhou.guo/Projects/Data/rtNetData/"
-        self.base = "/nas/yirui.wang/datasets/LN_classify/rtNetData/"
+        self.base = "/xxxx/datasets/LN_classify/rtNetData/"
         self.default_num_threads = 24
         # Data preprocessing, code will select median spacing if "target_spacing=None"
         # self.preproc_target_spacing = None

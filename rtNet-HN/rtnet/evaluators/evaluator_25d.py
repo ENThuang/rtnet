@@ -379,7 +379,7 @@ class Evaluator25DGradCAMWithENE(Evaluator25D):
         self.pred_ene = pred_ene
         self._hooks_enabled = True
         self.target_names = ["backbone_invariant.features.12.2"]
-        self.cam_output_path = "/home/yirui.wang/Desktop/HN_LN_clinical_paper_CAM"
+        self.cam_output_path = "/home/xxxxx/Desktop/HN_LN_clinical_paper_CAM"
 
     def _store_grad(self, grad: Tensor, idx: int = 0) -> None:
         if self._hooks_enabled:

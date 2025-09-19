@@ -81,7 +81,7 @@ class Exp(BaseExp):
         self.test_input_patch_size = (32, 118, 118)
 
         # -------------- nnUnet style args, to be organized --------------#
-        self.base = "/data/yirui/datasets/LN_classify/rtNetData/"
+        self.base = "/data/xxxx/datasets/LN_classify/rtNetData/"
         self.default_num_threads = 24
         # Data preprocessing, code will select median spacing if "target_spacing=None"
         # self.preproc_target_spacing = None
